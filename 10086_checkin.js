@@ -1,1 +1,400 @@
-Ly8gPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0KLy8g5Lit5Zu956e75YqoIDEwMDg2IOetvuWIsOaKveWlluiEmuacrCAoUXVhbnR1bXVsdCBYKQovLyDlip/og706IOavj+aXpeiHquWKqOetvuWIsCArIOW5uOi/kOaKveWlliArIOiOt+WPlumineWkluaKveWlluasoeaVsAovLyDnsbvlnos6IHRhc2sgKOWumuaXtuS7u+WKoSkKLy8gPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0KLy8KLy8gUXVhbnR1bXVsdCBYIOmFjee9rjoKLy8gLS0tLS0tLS0tLSBbdGFza19sb2NhbF0gLS0tLS0tLS0tLQovLyAwIDgsMTggKiAqICogaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tLzEwMDkzOTQ5NTgvMTAwODYtcXVhbnR1bXVsdHgvbWFpbi8xMDA4Nl9jaGVja2luLmpzLCB0YWc956e75YqoMTAwODZf562+5Yiw5oq95aWWLCBlbmFibGVkPXRydWUKLy8KLy8gLS0tLS0tLS0tLSBbcmV3cml0ZV9yZW1vdGVdIC0tLS0tLS0tLS0KLy8gaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tLzEwMDkzOTQ5NTgvMTAwODYtcXVhbnR1bXVsdHgvbWFpbi8xMDA4Nl90b2tlbi5qcywgdGFnPeenu+WKqDEwMDg2X+iOt+WPllRva2VuLCBlbmFibGVkPXRydWUKLy8KLy8gLS0tLS0tLS0tLSBbTUlUTV0gLS0tLS0tLS0tLQovLyBob3N0bmFtZSA9ICouMTAwODYuY24sICouY29jLjEwMDg2LmNuCi8vCi8vIOKaoO+4jyDkvb/nlKjliY3or7TmmI46Ci8vIDEuIOWFiOWQr+eUqCAxMDA4Nl90b2tlbi5qcyDlubbmiZPlvIDkuIDmrKHkuK3lm73np7vliqggQXBw77yM6Ieq5Yqo5o2V6I63IFRva2VuIOWSjCBDb29raWUKLy8gMi4g5pys6ISa5pys6K+75Y+W5bey5o2V6I6355qE5Yet6K+B77yM6Ieq5Yqo5a6M5oiQ562+5Yiw5ZKM5oq95aWWCi8vIDMuIOmmluasoeS9v+eUqOW7uuiuruWcqCBBcHAg5Lit5omL5Yqo5a6M5oiQ5LiA5qyh562+5Yiw5rWB56iL5Lul6aqM6K+B5Yet6K+B5pyJ5pWI5oCnCi8vCi8vIOWKn+iDveivtOaYjjoKLy8gLSDinIUg6Ieq5Yqo6K+75Y+W5bey5o2V6I6355qEIHgtdG9rZW4g5ZKMIENvb2tpZQovLyAtIOKchSDliLfmlrDnmbvlvZXkvJror50gKGF1dG9Mb2dpbikKLy8gLSDinIUg6I635Y+W55So5oi35L+h5oGv6aqM6K+B55m75b2V54q25oCBCi8vIC0g4pyFIOinpuWPkeavj+aXpeetvuWIsAovLyAtIOKchSDlsJ3or5Xmn6Xor6LlubbmiafooYzmir3lpZYKLy8gLSDinIUg5bCd6K+V6I635Y+W6aKd5aSW5oq95aWW5qyh5pWwCgpjb25zdCBLRVlfVE9LRU4gPSAiMTAwODZfeF90b2tlbiI7CmNvbnN0IEtFWV9DT09LSUUgPSAiMTAwODZfY29va2llIjsKY29uc3QgS0VZX1JUT0tFTiA9ICIxMDA4Nl9yX3Rva2VuIjsKY29uc3QgS0VZX0NIRUNLSU5fTE9HID0gIjEwMDg2X2NoZWNraW5fbG9nIjsKCmNvbnN0IFVBID0gIkNoaW5hTW9iaWxlLzEyLjEuMiAoaVBob25lOyBpT1MgMjYuMC4xOyBTY2FsZS8zLjAwKSI7CmNvbnN0IFVBX0NGID0gIkNoaW5hTW9iaWxlLzI2MDYwOTExNDExMjEyMDAgQ0ZOZXR3b3JrLzM4NjAuMTAwLjEgRGFyd2luLzI1LjAuMCI7CgpsZXQgbXNnX2xvZ3MgPSBbXTsKbGV0IG5vdGlmeU1zZyA9ICIiOwpsZXQgbm90aWZ5U3ViID0gIiI7CgovLyA9PT09PT09PT09PT09PT09PT09PSDml6Xlv5cgPT09PT09PT09PT09PT09PT09PT0KZnVuY3Rpb24gbG9nKG1zZykgewogIGNvbnNvbGUubG9nKG1zZyk7CiAgbXNnX2xvZ3MucHVzaChtc2cpOwp9CgovLyA9PT09PT09PT09PT09PT09PT09PSDor7vlj5blh63or4EgPT09PT09PT09PT09PT09PT09PT0KZnVuY3Rpb24gZ2V0Q3JlZGVudGlhbHMoKSB7CiAgcmV0dXJuIHsKICAgIHhUb2tlbjogJHByZWZzLnZhbHVlRm9yS2V5KEtFWV9UT0tFTikgfHwgIiIsCiAgICBjb29raWU6ICRwcmVmcy52YWx1ZUZvcktleShLRVlfQ09PS0lFKSB8fCAiIiwKICAgIHJUb2tlbjogJHByZWZzLnZhbHVlRm9yS2V5KEtFWV9SVE9LRU4pIHx8ICIiCiAgfTsKfQoKLy8gPT09PT09PT09PT09PT09PT09PT0g5L+d5a2Y5Yet6K+BID09PT09PT09PT09PT09PT09PT09CmZ1bmN0aW9uIHNhdmVDcmVkZW50aWFscyh4VG9rZW4sIGNvb2tpZSwgclRva2VuKSB7CiAgaWYgKHhUb2tlbikgJHByZWZzLnNldFZhbHVlRm9yS2V5KHhUb2tlbiwgS0VZX1RPS0VOKTsKICBpZiAoY29va2llKSAkcHJlZnMuc2V0VmFsdWVGb3JLZXkoY29va2llLCBLRVlfQ09PS0lFKTsKICBpZiAoclRva2VuKSAkcHJlZnMuc2V0VmFsdWVGb3JLZXkoclRva2VuLCBLRVlfUlRPS0VOKTsKfQoKLy8gPT09PT09PT09PT09PT09PT09PT0gSFRUUCDor7fmsYIgPT09PT09PT09PT09PT09PT09PT0KZnVuY3Rpb24gaHR0cFJlcXVlc3QodXJsLCBtZXRob2QgPSAiR0VUIiwgaGVhZGVycyA9IHt9LCBib2R5ID0gbnVsbCkgewogIHJldHVybiBuZXcgUHJvbWlzZSgocmVzb2x2ZSwgcmVqZWN0KSA9PiB7CiAgICBsZXQgb3B0cyA9IHsKICAgICAgdXJsLAogICAgICBtZXRob2QsCiAgICAgIGhlYWRlcnM6IE9iamVjdC5hc3NpZ24oewogICAgICAgICJVc2VyLUFnZW50IjogVUEsCiAgICAgICAgIkFjY2VwdC1MYW5ndWFnZSI6ICJ6aC1IYW5zLUNOO3E9MSIsCiAgICAgICAgIkFjY2VwdC1FbmNvZGluZyI6ICJkZWZsYXRlIgogICAgICB9LCBoZWFkZXJzKSwKICAgICAgdGltZW91dDogMTUwMDAKICAgIH07CiAgICBpZiAoYm9keSkgb3B0cy5ib2R5ID0gYm9keTsKICAgICR0YXNrLmZldGNoKG9wdHMpLnRoZW4ociA9PiByZXNvbHZlKHIpLCBlID0+IHJlamVjdChlKSk7CiAgfSk7Cn0KCi8vID09PT09PT09PT09PT09PT09PT09IOatpemqpDE6IOmqjOivgeW5tuWIt+aWsCBUb2tlbiA9PT09PT09PT09PT09PT09PT09PQphc3luYyBmdW5jdGlvbiByZWZyZXNoU2Vzc2lvbihjcmVkKSB7CiAgbG9nKCLwn5OMIFvmraXpqqQxLzVdIOmqjOivgeW5tuWIt+aWsOS8muivnS4uLiIpOwoKICAvLyDpgJrov4fmn6Xor6LnlKjmiLfkv6Hmga/mnaXpqozor4EgdG9rZW4g5pyJ5pWI5oCnCiAgdHJ5IHsKICAgIC8vIOS9v+eUqCBjbGllbnRhY2Nlc3MgQVBJIC0g5peg6ZyA5Yqg5a+GIGJvZHkKICAgIGxldCByZXNwID0gYXdhaXQgaHR0cFJlcXVlc3QoCiAgICAgICJodHRwczovL2NsaWVudGFjY2Vzcy4xMDA4Ni5jbi9iaXotb3JhbmdlL0JOL3VzZXJJbmZvcm1hdGlvblNlcnZpY2UvZ2V0VXNlckluZm9ybWF0aW9uIiwKICAgICAgIlBPU1QiLAogICAgICB7CiAgICAgICAgIngtdG9rZW4iOiBjcmVkLnhUb2tlbiwKICAgICAgICAiQ29va2llIjogY3JlZC5jb29raWUsCiAgICAgICAgIkNvbnRlbnQtVHlwZSI6ICJhcHBsaWNhdGlvbi9Kc29uIiwKICAgICAgICAieC10aW1lIjogU3RyaW5nKERhdGUubm93KCkpLAogICAgICAgICJ4LW5vbmNlIjogU3RyaW5nKE1hdGguZmxvb3IoTWF0aC5yYW5kb20oKSAqIDEwMDAwMDAwMCkpLAogICAgICAgICJ4LXFlbiI6ICIxNCIsCiAgICAgICAgInhzIjogbWQ1cmFuZG9tKCksCiAgICAgICAgIkFjY2VwdCI6ICIqLyoiCiAgICAgIH0sCiAgICAgIGNyZWQueFRva2VuID8gIiIgOiB1bmRlZmluZWQKICAgICk7CgogICAgbG9nKCIgIOKGsyDlk43lupTnoIE6ICIgKyByZXNwLnN0YXR1c0NvZGUpOwogICAgaWYgKHJlc3AuaGVhZGVycyAmJiByZXNwLmhlYWRlcnNbInItdG9rZW4iXSkgewogICAgICBsb2coIiAg4oazIOiOt+WPluWIsOaWsCByLXRva2VuOiAiICsgcmVzcC5oZWFkZXJzWyJyLXRva2VuIl0uc3Vic3RyaW5nKDAsIDE2KSArICIuLi4iKTsKICAgICAgc2F2ZUNyZWRlbnRpYWxzKG51bGwsIG51bGwsIHJlc3AuaGVhZGVyc1sici10b2tlbiJdKTsKICAgIH0KCiAgICAvLyDlsJ3or5Xmm7TmlrAgY29va2llCiAgICBpZiAocmVzcC5oZWFkZXJzICYmIHJlc3AuaGVhZGVyc1siU2V0LUNvb2tpZSJdKSB7CiAgICAgIGxldCBzYyA9IHJlc3AuaGVhZGVyc1siU2V0LUNvb2tpZSJdOwogICAgICBsZXQgbSA9IHNjLm1hdGNoKC8oSlNFU1NJT05JRHxVSUQpPShbXjtdKykvZyk7CiAgICAgIGlmIChtKSB7CiAgICAgICAgbGV0IG5ld0Nvb2tpZSA9IG0uam9pbigiOyAiKTsKICAgICAgICBzYXZlQ3JlZGVudGlhbHMobnVsbCwgbmV3Q29va2llLCBudWxsKTsKICAgICAgICBjcmVkLmNvb2tpZSA9IG5ld0Nvb2tpZTsKICAgICAgICBsb2coIiAg4oazIENvb2tpZSDlt7Lmm7TmlrAiKTsKICAgICAgfQogICAgfQoKICAgIHJldHVybiB0cnVlOwogIH0gY2F0Y2ggKGUpIHsKICAgIGxvZygiICDinYwg5Lya6K+d6aqM6K+B5aSx6LSlOiAiICsgZS5lcnJvcik7CiAgICByZXR1cm4gZmFsc2U7CiAgfQp9CgovLyA9PT09PT09PT09PT09PT09PT09PSDmraXpqqQyOiDorr/pl67nrb7liLDmtLvliqjpobUgPT09PT09PT09PT09PT09PT09PT0KYXN5bmMgZnVuY3Rpb24gdmlzaXRDaGVja2luUGFnZShjcmVkKSB7CiAgbG9nKCLwn5OMIFvmraXpqqQyLzVdIOiuv+mXruetvuWIsOa0u+WKqOmhtemdoi4uLiIpOwoKICAvLyDnrb7liLDmnInnpLzmtLvliqggLSBBbGliYWJhIE5lYnVsYSDlsI/nqIvluo8KICAvLyDpgJrov4cgSDUg6aG16Z2i6K6/6Zeu6Kem5Y+R562+5YiwCiAgY29uc3QgYWN0aXZpdHlIb3N0ID0gIjg0NjM4MDM1MjE2NzQzMzcuaDVhcHAuMTAwODYuY24iOwogIGNvbnN0IGFjdGl2aXR5VXJsID0gYGh0dHBzOi8vJHthY3Rpdml0eUhvc3R9L2luZGV4Lmh0bWwjcGFnZXMvcXdoZG1hcmsvdmlld3MvaG9tZS9pbmRleD9hY3Rpdml0eUlkPTEwMjExMjIzMDFgOwoKICB0cnkgewogICAgLy8g6aaW5YWI6K6/6Zeu6aaW6aG15Lul5bu656uL5Lya6K+dCiAgICBsZXQgcmVzcCA9IGF3YWl0IGh0dHBSZXF1ZXN0KAogICAgICBgaHR0cHM6Ly8ke2FjdGl2aXR5SG9zdH0vaW5kZXguaHRtbGAsCiAgICAgICJHRVQiLAogICAgICB7ICJDb29raWUiOiBjcmVkLmNvb2tpZSwgIngtdG9rZW4iOiBjcmVkLnhUb2tlbiB9CiAgICApOwoKICAgIGxvZygiICDihrMg5rS75Yqo6aG16K6/6ZeuOiBIVFRQICIgKyByZXNwLnN0YXR1c0NvZGUpOwoKICAgIC8vIOWwneivleiOt+WPlua0u+WKqOmFjee9ruS/oeaBrwogICAgLy8g562+5Yiw5rS75YqoIEFQSSDlnLDlnYAgKOWfuuS6juWwj+eoi+W6j+ahhuaetuaOqOa1iykKICAgIGxldCBhcGlVcmwgPSBgaHR0cHM6Ly8ke2FjdGl2aXR5SG9zdH0vYXBpL2FjdGl2aXR5L3NpZ25Jbj9hY3Rpdml0eUlkPTEwMjExMjIzMDFgOwoKICAgIGxldCBzaWduUmVzcCA9IGF3YWl0IGh0dHBSZXF1ZXN0KAogICAgICBhcGlVcmwsCiAgICAgICJQT1NUIiwKICAgICAgewogICAgICAgICJDb29raWUiOiBjcmVkLmNvb2tpZSwKICAgICAgICAieC10b2tlbiI6IGNyZWQueFRva2VuLAogICAgICAgICJDb250ZW50LVR5cGUiOiAiYXBwbGljYXRpb24vanNvbiIsCiAgICAgICAgIk9yaWdpbiI6IGBodHRwczovLyR7YWN0aXZpdHlIb3N0fWAsCiAgICAgICAgIlJlZmVyZXIiOiBhY3Rpdml0eVVybCwKICAgICAgICAiVXNlci1BZ2VudCI6IFVBCiAgICAgIH0sCiAgICAgIEpTT04uc3RyaW5naWZ5KHsgYWN0aXZpdHlJZDogIjEwMjExMjIzMDEiIH0pCiAgICApOwoKICAgIGxvZygiICDihrMg562+5YiwQVBJ5ZON5bqU56CBOiAiICsgc2lnblJlc3Auc3RhdHVzQ29kZSk7CiAgICBpZiAoc2lnblJlc3AuYm9keSkgewogICAgICBsb2coIiAg4oazIOWTjeW6lDogIiArIHNpZ25SZXNwLmJvZHkuc3Vic3RyaW5nKDAsIDMwMCkpOwogICAgICAvLyDlsJ3or5Xop6PmnpAKICAgICAgdHJ5IHsKICAgICAgICBsZXQganNvbiA9IEpTT04ucGFyc2Uoc2lnblJlc3AuYm9keSk7CiAgICAgICAgaWYgKGpzb24uY29kZSA9PT0gIjAwMDAwMCIgfHwganNvbi5zdWNjZXNzIHx8IGpzb24uY29kZSA9PT0gMCkgewogICAgICAgICAgbG9nKCIgIOKchSDnrb7liLDmiJDlip8hIik7CiAgICAgICAgICBub3RpZnlTdWIgPSAi562+5Yiw5oiQ5YqfIjsKICAgICAgICAgIHJldHVybiB7IHNpZ25lZDogdHJ1ZSwgZGF0YToganNvbiB9OwogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICBsb2coIiAg4pqg77iPIOetvuWIsOi/lOWbnjogIiArIChqc29uLm1zZyB8fCBqc29uLm1lc3NhZ2UgfHwgSlNPTi5zdHJpbmdpZnkoanNvbikpKTsKICAgICAgICAgIG5vdGlmeVN1YiA9IGpzb24ubXNnIHx8ICLnrb7liLDnu5PmnpzmnKrnn6UiOwogICAgICAgIH0KICAgICAgfSBjYXRjaCAoZSkgewogICAgICAgIGxvZygiICDimqDvuI8g5ZON5bqU6Z2eSlNPTjogIiArIHNpZ25SZXNwLmJvZHkuc3Vic3RyaW5nKDAsIDEwMCkpOwogICAgICB9CiAgICB9CgogICAgcmV0dXJuIHsgc2lnbmVkOiBmYWxzZSB9OwogIH0gY2F0Y2ggKGUpIHsKICAgIGxvZygiICDinYwg6K6/6Zeu562+5Yiw6aG15aSx6LSlOiAiICsgZS5lcnJvcik7CiAgICByZXR1cm4geyBzaWduZWQ6IGZhbHNlIH07CiAgfQp9CgovLyA9PT09PT09PT09PT09PT09PT09PSDmraXpqqQzOiDmn6Xor6Lmir3lpZbmrKHmlbAgPT09PT09PT09PT09PT09PT09PT0KYXN5bmMgZnVuY3Rpb24gcXVlcnlMb3R0ZXJ5KGNyZWQpIHsKICBsb2coIvCfk4wgW+atpemqpDMvNV0g5p+l6K+i5oq95aWW5qyh5pWwLi4uIik7CgogIC8vIOaKveWllkFQSSAo5qC55o2u5rS75YqoSUTlkozpgJrnlKjmtLvliqjmoYbmnrbmjqjmtYspCiAgY29uc3QgYWN0aXZpdHlIb3N0ID0gIjg0NjM4MDM1MjE2NzQzMzcuaDVhcHAuMTAwODYuY24iOwoKICB0cnkgewogICAgLy8g5p+l6K+i5oq95aWW5py65LyaCiAgICBsZXQgcmVzcCA9IGF3YWl0IGh0dHBSZXF1ZXN0KAogICAgICBgaHR0cHM6Ly8ke2FjdGl2aXR5SG9zdH0vYXBpL2xvdHRlcnkvcXVlcnk/YWN0aXZpdHlJZD0xMDIxMTIyMzAxYCwKICAgICAgIkdFVCIsCiAgICAgIHsgIkNvb2tpZSI6IGNyZWQuY29va2llLCAieC10b2tlbiI6IGNyZWQueFRva2VuIH0KICAgICk7CgogICAgaWYgKHJlc3AuYm9keSAmJiByZXNwLmJvZHkubGVuZ3RoIDwgNTAwKSB7CiAgICAgIGxvZygiICDihrMg5oq95aWW5p+l6K+iOiAiICsgcmVzcC5ib2R5LnN1YnN0cmluZygwLCAyMDApKTsKICAgICAgdHJ5IHsKICAgICAgICBsZXQganNvbiA9IEpTT04ucGFyc2UocmVzcC5ib2R5KTsKICAgICAgICBsZXQgY2hhbmNlcyA9IGpzb24uZHJhd0NvdW50IHx8IGpzb24uY2hhbmNlcyB8fCBqc29uLmxvdHRlcnlDb3VudCB8fCAwOwogICAgICAgIGxvZyhgICDwn46vIOW9k+WJjeaKveWlluasoeaVsDogJHtjaGFuY2VzfWApOwogICAgICAgIHJldHVybiB7IGNoYW5jZXMgfTsKICAgICAgfSBjYXRjaCAoZSkgewogICAgICAgIGxvZygiICDimqDvuI8g5p+l6K+i5ZON5bqU6Z2e5qCH5YeGSlNPTiIpOwogICAgICB9CiAgICB9CgogICAgcmV0dXJuIHsgY2hhbmNlczogMCB9OwogIH0gY2F0Y2ggKGUpIHsKICAgIGxvZygiICDimqDvuI8g5p+l6K+i5oq95aWW5aSx6LSlOiAiICsgZS5lcnJvcik7CiAgICByZXR1cm4geyBjaGFuY2VzOiAwIH07CiAgfQp9CgovLyA9PT09PT09PT09PT09PT09PT09PSDmraXpqqQ0OiDmiafooYzmir3lpZYgPT09PT09PT09PT09PT09PT09PT0KYXN5bmMgZnVuY3Rpb24gZG9Mb3R0ZXJ5KGNyZWQsIGNoYW5jZXMpIHsKICBsb2coIvCfk4wgW+atpemqpDQvNV0g5omn6KGM5oq95aWWLi4uIik7CgogIGlmIChjaGFuY2VzIDw9IDApIHsKICAgIGxvZygiICDimqDvuI8g5rKh5pyJ5Y+v55So55qE5oq95aWW5qyh5pWwIik7CiAgICByZXR1cm4geyBkcmV3OiBmYWxzZSwgcmVhc29uOiAibm9fY2hhbmNlcyIgfTsKICB9CgogIGNvbnN0IGFjdGl2aXR5SG9zdCA9ICI4NDYzODAzNTIxNjc0MzM3Lmg1YXBwLjEwMDg2LmNuIjsKICBsZXQgZHJldyA9IDA7CgogIGZvciAobGV0IGkgPSAwOyBpIDwgTWF0aC5taW4oY2hhbmNlcywgMyk7IGkrKykgeyAvLyDmnIDlpJrmir0z5qyhCiAgICB0cnkgewogICAgICBsZXQgcmVzcCA9IGF3YWl0IGh0dHBSZXF1ZXN0KAogICAgICAgIGBodHRwczovLyR7YWN0aXZpdHlIb3N0fS9hcGkvbG90dGVyeS9kcmF3P2FjdGl2aXR5SWQ9MTAyMTEyMjMwMWAsCiAgICAgICAgIlBPU1QiLAogICAgICAgIHsKICAgICAgICAgICJDb29raWUiOiBjcmVkLmNvb2tpZSwKICAgICAgICAgICJ4LXRva2VuIjogY3JlZC54VG9rZW4sCiAgICAgICAgICAiQ29udGVudC1UeXBlIjogImFwcGxpY2F0aW9uL2pzb24iCiAgICAgICAgfSwKICAgICAgICBKU09OLnN0cmluZ2lmeSh7IGFjdGl2aXR5SWQ6ICIxMDIxMTIyMzAxIiB9KQogICAgICApOwoKICAgICAgaWYgKHJlc3AuYm9keSkgewogICAgICAgIGxvZyhgICDwn46wIOesrCR7aSArIDF95qyh5oq95aWWOiBgICsgcmVzcC5ib2R5LnN1YnN0cmluZygwLCAyMDApKTsKICAgICAgICB0cnkgewogICAgICAgICAgbGV0IGpzb24gPSBKU09OLnBhcnNlKHJlc3AuYm9keSk7CiAgICAgICAgICBpZiAoanNvbi5jb2RlID09PSAiMDAwMDAwIiB8fCBqc29uLnN1Y2Nlc3MgfHwganNvbi5jb2RlID09PSAwKSB7CiAgICAgICAgICAgIGRyZXcrKzsKICAgICAgICAgICAgbGV0IHByaXplID0ganNvbi5wcml6ZU5hbWUgfHwganNvbi5wcml6ZSB8fCBqc29uLmRhdGE/LnByaXplTmFtZSB8fCAi5pyq55+l5aWW5ZOBIjsKICAgICAgICAgICAgbG9nKGAgIPCfjokg6I635b6XOiAke3ByaXplfWApOwogICAgICAgICAgfQogICAgICAgIH0gY2F0Y2ggKGUpIHsKICAgICAgICAgIC8vIOWTjeW6lOWPr+iDveaYr+WKoOWvhueahAogICAgICAgIH0KICAgICAgfQogICAgfSBjYXRjaCAoZSkgewogICAgICBsb2coYCAg4pqg77iPIOesrCR7aSArIDF95qyh5oq95aWW5aSx6LSlOiBgICsgZS5lcnJvcik7CiAgICB9CiAgfQoKICByZXR1cm4geyBkcmV3OiBkcmV3ID4gMCwgY291bnQ6IGRyZXcgfTsKfQoKLy8gPT09PT09PT09PT09PT09PT09PT0g5q2l6aqkNTog6I635Y+W6aKd5aSW5oq95aWW5qyh5pWwID09PT09PT09PT09PT09PT09PT09CmFzeW5jIGZ1bmN0aW9uIGdldEV4dHJhQ2hhbmNlcyhjcmVkKSB7CiAgbG9nKCLwn5OMIFvmraXpqqQ1LzVdIOWwneivleiOt+WPlumineWkluaKveWlluasoeaVsC4uLiIpOwoKICAvLyDnrZbnlaUxOiDpgJrov4fnrb7liLDku7vliqHojrflj5bpop3lpJbmrKHmlbAKICAvLyDnrZbnlaUyOiDpgJrov4fliIbkuqvojrflj5YKICAvLyDnrZbnlaUzOiDpgJrov4fmtY/op4jmtLvliqjpobXpnaLojrflj5YKCiAgY29uc3QgYWN0aXZpdHlIb3N0ID0gIjg0NjM4MDM1MjE2NzQzMzcuaDVhcHAuMTAwODYuY24iOwogIGxldCBleHRyYUdhaW5lZCA9IDA7CgogIC8vIOWwneivleWujOaIkOetvuWIsOS7u+WKoeiOt+W+l+mineWkluasoeaVsAogIHRyeSB7CiAgICBsZXQgcmVzcCA9IGF3YWl0IGh0dHBSZXF1ZXN0KAogICAgICBgaHR0cHM6Ly8ke2FjdGl2aXR5SG9zdH0vYXBpL3Rhc2svY29tcGxldGU/YWN0aXZpdHlJZD0xMDIxMTIyMzAxJnRhc2tUeXBlPXNpZ25gLAogICAgICAiUE9TVCIsCiAgICAgIHsKICAgICAgICAiQ29va2llIjogY3JlZC5jb29raWUsCiAgICAgICAgIngtdG9rZW4iOiBjcmVkLnhUb2tlbiwKICAgICAgICAiQ29udGVudC1UeXBlIjogImFwcGxpY2F0aW9uL2pzb24iCiAgICAgIH0sCiAgICAgIEpTT04uc3RyaW5naWZ5KHsgYWN0aXZpdHlJZDogIjEwMjExMjIzMDEiLCB0YXNrVHlwZTogInNpZ24iIH0pCiAgICApOwoKICAgIGlmIChyZXNwLmJvZHkpIHsKICAgICAgbG9nKCIgIOKGsyDnrb7liLDku7vliqE6ICIgKyByZXNwLmJvZHkuc3Vic3RyaW5nKDAsIDE1MCkpOwogICAgICB0cnkgewogICAgICAgIGxldCBqc29uID0gSlNPTi5wYXJzZShyZXNwLmJvZHkpOwogICAgICAgIGlmIChqc29uLmNvZGUgPT09ICIwMDAwMDAiIHx8IGpzb24uc3VjY2VzcykgewogICAgICAgICAgZXh0cmFHYWluZWQrKzsKICAgICAgICB9CiAgICAgIH0gY2F0Y2ggKGUpIHt9CiAgICB9CiAgfSBjYXRjaCAoZSkgewogICAgbG9nKCIgIOKaoO+4jyDnrb7liLDku7vliqHlpLHotKU6ICIgKyBlLmVycm9yKTsKICB9CgogIC8vIOWwneivlea1j+iniOS7u+WKoeiOt+W+l+mineWkluasoeaVsAogIHRyeSB7CiAgICBsZXQgcmVzcCA9IGF3YWl0IGh0dHBSZXF1ZXN0KAogICAgICBgaHR0cHM6Ly8ke2FjdGl2aXR5SG9zdH0vYXBpL3Rhc2svY29tcGxldGU/YWN0aXZpdHlJZD0xMDIxMTIyMzAxJnRhc2tUeXBlPWJyb3dzZWAsCiAgICAgICJQT1NUIiwKICAgICAgewogICAgICAgICJDb29raWUiOiBjcmVkLmNvb2tpZSwKICAgICAgICAieC10b2tlbiI6IGNyZWQueFRva2VuLAogICAgICAgICJDb250ZW50LVR5cGUiOiAiYXBwbGljYXRpb24vanNvbiIKICAgICAgfSwKICAgICAgSlNPTi5zdHJpbmdpZnkoeyBhY3Rpdml0eUlkOiAiMTAyMTEyMjMwMSIsIHRhc2tUeXBlOiAiYnJvd3NlIiB9KQogICAgKTsKCiAgICBpZiAocmVzcC5ib2R5KSB7CiAgICAgIGxvZygiICDihrMg5rWP6KeI5Lu75YqhOiAiICsgcmVzcC5ib2R5LnN1YnN0cmluZygwLCAxNTApKTsKICAgIH0KICB9IGNhdGNoIChlKSB7fQoKICBpZiAoZXh0cmFHYWluZWQgPiAwKSB7CiAgICBsb2coYCAg4pyFIOiOt+W+lyAke2V4dHJhR2FpbmVkfSDmrKHpop3lpJbmir3lpZbmnLrkvJpgKTsKICB9IGVsc2UgewogICAgbG9nKCIgIOKEue+4jyDmnKrojrflj5bliLDpop3lpJbmrKHmlbAo5oiW5bey6aKG5Y+W6L+HKSIpOwogIH0KCiAgcmV0dXJuIHsgZXh0cmFHYWluZWQgfTsKfQoKLy8gPT09PT09PT09PT09PT09PT09PT0g6L6F5YqpOiDpmo/mnLogTUQ1IOagvOW8j+Wtl+espuS4siA9PT09PT09PT09PT09PT09PT09PQpmdW5jdGlvbiBtZDVyYW5kb20oKSB7CiAgbGV0IHMgPSAiIjsKICBmb3IgKGxldCBpID0gMDsgaSA8IDMyOyBpKyspIHMgKz0gTWF0aC5mbG9vcihNYXRoLnJhbmRvbSgpICogMTYpLnRvU3RyaW5nKDE2KTsKICByZXR1cm4gczsKfQoKLy8gPT09PT09PT09PT09PT09PT09PT0g5Li75rWB56iLID09PT09PT09PT09PT09PT09PT09CmFzeW5jIGZ1bmN0aW9uIG1haW4oKSB7CiAgbG9nKCLilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZAiKTsKICBsb2coIiAgICDwn5O2IOS4reWbveenu+WKqCAxMDA4NiDnrb7liLDmir3lpZYiKTsKICBsb2coIiAgICDij7AgIiArIG5ldyBEYXRlKCkudG9Mb2NhbGVTdHJpbmcoInpoLUNOIikpOwogIGxvZygi4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQIik7CgogIC8vIDEuIOivu+WPluWHreivgQogIGxldCBjcmVkID0gZ2V0Q3JlZGVudGlhbHMoKTsKICBpZiAoIWNyZWQueFRva2VuICYmICFjcmVkLmNvb2tpZSkgewogICAgbG9nKCLinYwg5pyq5qOA5rWL5YiwIFRva2VuIOaIliBDb29raWUiKTsKICAgIGxvZygi8J+TjCDor7flhYjlnKggUXVhbnR1bXVsdCBYIOS4reWQr+eUqCAxMDA4Nl90b2tlbi5qcyIpOwogICAgbG9nKCLwn5OMIOeEtuWQjuaJk+W8gOS4gOasoeS4reWbveenu+WKqCBBcHAg5Lul5o2V6I635Yet6K+BIik7CiAgICAkbm90aWZpY2F0aW9uLnBvc3QoIuKdjCDnp7vliqgxMDA4NiIsICLnrb7liLDlpLHotKUiLCAi5pyq5qOA5rWL5YiwVG9rZW4vQ29va2ll77yM6K+35YWI5omT5byA5Lit5Zu956e75YqoQXBwIik7CiAgICByZXR1cm47CiAgfQoKICBsb2coIvCfk4QgVG9rZW46ICIgKyAoY3JlZC54VG9rZW4gPyAi4pyTICgiICsgY3JlZC54VG9rZW4uc3Vic3RyaW5nKDAsIDIwKSArICLigKYpIiA6ICLinJciKSk7CiAgbG9nKCLwn5OEIENvb2tpZTogIiArIChjcmVkLmNvb2tpZSA/ICLinJMgKCIgKyBjcmVkLmNvb2tpZS5zdWJzdHJpbmcoMCwgNDApICsgIuKApikiIDogIuKclyIpKTsKCiAgLy8gMi4g5omn6KGM5ZCE5q2l6aqkCiAgYXdhaXQgcmVmcmVzaFNlc3Npb24oY3JlZCk7CiAgbGV0IHNpZ25SZXN1bHQgPSBhd2FpdCB2aXNpdENoZWNraW5QYWdlKGNyZWQpOwogIGxldCBsb3R0ZXJ5SW5mbyA9IGF3YWl0IHF1ZXJ5TG90dGVyeShjcmVkKTsKICBsZXQgZHJhd1Jlc3VsdCA9IG51bGw7CiAgaWYgKGxvdHRlcnlJbmZvLmNoYW5jZXMgPiAwKSB7CiAgICBkcmF3UmVzdWx0ID0gYXdhaXQgZG9Mb3R0ZXJ5KGNyZWQsIGxvdHRlcnlJbmZvLmNoYW5jZXMpOwogIH0KICBhd2FpdCBnZXRFeHRyYUNoYW5jZXMoY3JlZCk7CgogIC8vIDMuIOS6jOasoeaKveWlliAo5aaC5p6c5pyJ6aKd5aSW5qyh5pWwKQogIGlmIChsb3R0ZXJ5SW5mby5jaGFuY2VzID4gMCAmJiBkcmF3UmVzdWx0ICYmIGRyYXdSZXN1bHQuY291bnQgPCBsb3R0ZXJ5SW5mby5jaGFuY2VzKSB7CiAgICBsZXQgcmVtYWluID0gbG90dGVyeUluZm8uY2hhbmNlcyAtIGRyYXdSZXN1bHQuY291bnQ7CiAgICBsb2coYPCfk4wg5Ymp5L2ZICR7cmVtYWlufSDmrKHmir3lpZbmnLrkvJrvvIznu6fnu63mir3lj5YuLi5gKTsKICAgIGF3YWl0IGRvTG90dGVyeShjcmVkLCByZW1haW4pOwogIH0KCiAgLy8gNC4g5rGH5oC757uT5p6cCiAgbG9nKCLilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZAiKTsKICBsZXQgc3VtbWFyeVBhcnRzID0gW107CiAgc3VtbWFyeVBhcnRzLnB1c2goc2lnblJlc3VsdC5zaWduZWQgPyAi4pyF562+5Yiw5oiQ5YqfIiA6ICLimqDvuI/nrb7liLDpnIDmiYvliqgiKTsKICBpZiAoZHJhd1Jlc3VsdCAmJiBkcmF3UmVzdWx0LmRyZXcpIHN1bW1hcnlQYXJ0cy5wdXNoKGDwn46w5oq95aWWJHtkcmF3UmVzdWx0LmNvdW50feasoWApOwogIGVsc2Ugc3VtbWFyeVBhcnRzLnB1c2goIvCfjrDml6Dmir3lpZbmrKHmlbAiKTsKICBsZXQgc3VtbWFyeSA9IHN1bW1hcnlQYXJ0cy5qb2luKCIgfCAiKTsKCiAgJG5vdGlmaWNhdGlvbi5wb3N0KCLwn5O2IOenu+WKqDEwMDg2Iiwgc3VtbWFyeSwgIuivpuaDheafpeeci+aXpeW/lyIpOwogIGxvZygi8J+TiyAiICsgc3VtbWFyeSk7CiAgbG9nKCLilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZAiKTsKCiAgJGRvbmUoKTsKfQoKbWFpbigpLmNhdGNoKGUgPT4gewogIGxvZygi4p2MIOiEmuacrOW8guW4uDogIiArIEpTT04uc3RyaW5naWZ5KGUpKTsKICAkbm90aWZpY2F0aW9uLnBvc3QoIuKdjCDnp7vliqgxMDA4NiDlvILluLgiLCAiIiwgU3RyaW5nKGUpKTsKICAkZG9uZSgpOwp9KTsK
+// =========================================
+// 中国移动 10086 签到抽奖脚本 (Quantumult X)
+// 功能: 每日自动签到 + 幸运抽奖 + 获取额外抽奖次数
+// 类型: task (定时任务)
+// =========================================
+//
+// Quantumult X 配置:
+// ---------- [task_local] ----------
+// 0 8,18 * * * https://raw.githubusercontent.com/1009394958/10086-quantumultx/main/10086_checkin.js, tag=移动10086_签到抽奖, enabled=true
+//
+// ---------- [rewrite_remote] ----------
+// https://raw.githubusercontent.com/1009394958/10086-quantumultx/main/10086_token.js, tag=移动10086_获取Token, enabled=true
+//
+// ---------- [MITM] ----------
+// hostname = *.10086.cn, *.coc.10086.cn
+//
+// ⚠️ 使用前说明:
+// 1. 先启用 10086_token.js 并打开一次中国移动 App，自动捕获 Token 和 Cookie
+// 2. 本脚本读取已捕获的凭证，自动完成签到和抽奖
+// 3. 首次使用建议在 App 中手动完成一次签到流程以验证凭证有效性
+//
+// 功能说明:
+// - ✅ 自动读取已捕获的 x-token 和 Cookie
+// - ✅ 刷新登录会话 (autoLogin)
+// - ✅ 获取用户信息验证登录状态
+// - ✅ 触发每日签到
+// - ✅ 尝试查询并执行抽奖
+// - ✅ 尝试获取额外抽奖次数
+
+const KEY_TOKEN = "10086_x_token";
+const KEY_COOKIE = "10086_cookie";
+const KEY_RTOKEN = "10086_r_token";
+const KEY_CHECKIN_LOG = "10086_checkin_log";
+
+const UA = "ChinaMobile/12.1.2 (iPhone; iOS 26.0.1; Scale/3.00)";
+const UA_CF = "ChinaMobile/2606091141121200 CFNetwork/3860.100.1 Darwin/25.0.0";
+
+let msg_logs = [];
+let notifyMsg = "";
+let notifySub = "";
+
+// ==================== 日志 ====================
+function log(msg) {
+  console.log(msg);
+  msg_logs.push(msg);
+}
+
+// ==================== 读取凭证 ====================
+function getCredentials() {
+  return {
+    xToken: $prefs.valueForKey(KEY_TOKEN) || "",
+    cookie: $prefs.valueForKey(KEY_COOKIE) || "",
+    rToken: $prefs.valueForKey(KEY_RTOKEN) || ""
+  };
+}
+
+// ==================== 保存凭证 ====================
+function saveCredentials(xToken, cookie, rToken) {
+  if (xToken) $prefs.setValueForKey(xToken, KEY_TOKEN);
+  if (cookie) $prefs.setValueForKey(cookie, KEY_COOKIE);
+  if (rToken) $prefs.setValueForKey(rToken, KEY_RTOKEN);
+}
+
+// ==================== HTTP 请求 ====================
+function httpRequest(url, method = "GET", headers = {}, body = null) {
+  return new Promise((resolve, reject) => {
+    let opts = {
+      url,
+      method,
+      headers: Object.assign({
+        "User-Agent": UA,
+        "Accept-Language": "zh-Hans-CN;q=1",
+        "Accept-Encoding": "deflate"
+      }, headers),
+      timeout: 15000
+    };
+    if (body) opts.body = body;
+    $task.fetch(opts).then(r => resolve(r), e => reject(e));
+  });
+}
+
+// ==================== 步骤1: 验证并刷新 Token ====================
+async function refreshSession(cred) {
+  log("📌 [步骤1/5] 验证并刷新会话...");
+
+  // 通过查询用户信息来验证 token 有效性
+  try {
+    // 使用 clientaccess API - 无需加密 body
+    let resp = await httpRequest(
+      "https://clientaccess.10086.cn/biz-orange/BN/userInformationService/getUserInformation",
+      "POST",
+      {
+        "x-token": cred.xToken,
+        "Cookie": cred.cookie,
+        "Content-Type": "application/Json",
+        "x-time": String(Date.now()),
+        "x-nonce": String(Math.floor(Math.random() * 100000000)),
+        "x-qen": "14",
+        "xs": md5random(),
+        "Accept": "*/*"
+      },
+      cred.xToken ? "" : undefined
+    );
+
+    log("  ↳ 响应码: " + resp.statusCode);
+    if (resp.headers && resp.headers["r-token"]) {
+      log("  ↳ 获取到新 r-token: " + resp.headers["r-token"].substring(0, 16) + "...");
+      saveCredentials(null, null, resp.headers["r-token"]);
+    }
+
+    // 尝试更新 cookie
+    if (resp.headers && resp.headers["Set-Cookie"]) {
+      let sc = resp.headers["Set-Cookie"];
+      let m = sc.match(/(JSESSIONID|UID)=([^;]+)/g);
+      if (m) {
+        let newCookie = m.join("; ");
+        saveCredentials(null, newCookie, null);
+        cred.cookie = newCookie;
+        log("  ↳ Cookie 已更新");
+      }
+    }
+
+    return true;
+  } catch (e) {
+    log("  ❌ 会话验证失败: " + e.error);
+    return false;
+  }
+}
+
+// ==================== 步骤2: 访问签到活动页 ====================
+async function visitCheckinPage(cred) {
+  log("📌 [步骤2/5] 访问签到活动页面...");
+
+  // 签到有礼活动 - Alibaba Nebula 小程序
+  // 通过 H5 页面访问触发签到
+  const activityHost = "8463803521674337.h5app.10086.cn";
+  const activityUrl = `https://${activityHost}/index.html#pages/qwhdmark/views/home/index?activityId=1021122301`;
+
+  try {
+    // 首先访问首页以建立会话
+    let resp = await httpRequest(
+      `https://${activityHost}/index.html`,
+      "GET",
+      { "Cookie": cred.cookie, "x-token": cred.xToken }
+    );
+
+    log("  ↳ 活动页访问: HTTP " + resp.statusCode);
+
+    // 尝试获取活动配置信息
+    // 签到活动 API 地址 (基于小程序框架推测)
+    let apiUrl = `https://${activityHost}/api/activity/signIn?activityId=1021122301`;
+
+    let signResp = await httpRequest(
+      apiUrl,
+      "POST",
+      {
+        "Cookie": cred.cookie,
+        "x-token": cred.xToken,
+        "Content-Type": "application/json",
+        "Origin": `https://${activityHost}`,
+        "Referer": activityUrl,
+        "User-Agent": UA
+      },
+      JSON.stringify({ activityId: "1021122301" })
+    );
+
+    log("  ↳ 签到API响应码: " + signResp.statusCode);
+    if (signResp.body) {
+      log("  ↳ 响应: " + signResp.body.substring(0, 300));
+      // 尝试解析
+      try {
+        let json = JSON.parse(signResp.body);
+        if (json.code === "000000" || json.success || json.code === 0) {
+          log("  ✅ 签到成功!");
+          notifySub = "签到成功";
+          return { signed: true, data: json };
+        } else {
+          log("  ⚠️ 签到返回: " + (json.msg || json.message || JSON.stringify(json)));
+          notifySub = json.msg || "签到结果未知";
+        }
+      } catch (e) {
+        log("  ⚠️ 响应非JSON: " + signResp.body.substring(0, 100));
+      }
+    }
+
+    return { signed: false };
+  } catch (e) {
+    log("  ❌ 访问签到页失败: " + e.error);
+    return { signed: false };
+  }
+}
+
+// ==================== 步骤3: 查询抽奖次数 ====================
+async function queryLottery(cred) {
+  log("📌 [步骤3/5] 查询抽奖次数...");
+
+  // 抽奖API (根据活动ID和通用活动框架推测)
+  const activityHost = "8463803521674337.h5app.10086.cn";
+
+  try {
+    // 查询抽奖机会
+    let resp = await httpRequest(
+      `https://${activityHost}/api/lottery/query?activityId=1021122301`,
+      "GET",
+      { "Cookie": cred.cookie, "x-token": cred.xToken }
+    );
+
+    if (resp.body && resp.body.length < 500) {
+      log("  ↳ 抽奖查询: " + resp.body.substring(0, 200));
+      try {
+        let json = JSON.parse(resp.body);
+        let chances = json.drawCount || json.chances || json.lotteryCount || 0;
+        log(`  🎯 当前抽奖次数: ${chances}`);
+        return { chances };
+      } catch (e) {
+        log("  ⚠️ 查询响应非标准JSON");
+      }
+    }
+
+    return { chances: 0 };
+  } catch (e) {
+    log("  ⚠️ 查询抽奖失败: " + e.error);
+    return { chances: 0 };
+  }
+}
+
+// ==================== 步骤4: 执行抽奖 ====================
+async function doLottery(cred, chances) {
+  log("📌 [步骤4/5] 执行抽奖...");
+
+  if (chances <= 0) {
+    log("  ⚠️ 没有可用的抽奖次数");
+    return { drew: false, reason: "no_chances" };
+  }
+
+  const activityHost = "8463803521674337.h5app.10086.cn";
+  let drew = 0;
+
+  for (let i = 0; i < Math.min(chances, 3); i++) { // 最多抽3次
+    try {
+      let resp = await httpRequest(
+        `https://${activityHost}/api/lottery/draw?activityId=1021122301`,
+        "POST",
+        {
+          "Cookie": cred.cookie,
+          "x-token": cred.xToken,
+          "Content-Type": "application/json"
+        },
+        JSON.stringify({ activityId: "1021122301" })
+      );
+
+      if (resp.body) {
+        log(`  🎰 第${i + 1}次抽奖: ` + resp.body.substring(0, 200));
+        try {
+          let json = JSON.parse(resp.body);
+          if (json.code === "000000" || json.success || json.code === 0) {
+            drew++;
+            let prize = json.prizeName || json.prize || json.data?.prizeName || "未知奖品";
+            log(`  🎉 获得: ${prize}`);
+          }
+        } catch (e) {
+          // 响应可能是加密的
+        }
+      }
+    } catch (e) {
+      log(`  ⚠️ 第${i + 1}次抽奖失败: ` + e.error);
+    }
+  }
+
+  return { drew: drew > 0, count: drew };
+}
+
+// ==================== 步骤5: 获取额外抽奖次数 ====================
+async function getExtraChances(cred) {
+  log("📌 [步骤5/5] 尝试获取额外抽奖次数...");
+
+  // 策略1: 通过签到任务获取额外次数
+  // 策略2: 通过分享获取
+  // 策略3: 通过浏览活动页面获取
+
+  const activityHost = "8463803521674337.h5app.10086.cn";
+  let extraGained = 0;
+
+  // 尝试完成签到任务获得额外次数
+  try {
+    let resp = await httpRequest(
+      `https://${activityHost}/api/task/complete?activityId=1021122301&taskType=sign`,
+      "POST",
+      {
+        "Cookie": cred.cookie,
+        "x-token": cred.xToken,
+        "Content-Type": "application/json"
+      },
+      JSON.stringify({ activityId: "1021122301", taskType: "sign" })
+    );
+
+    if (resp.body) {
+      log("  ↳ 签到任务: " + resp.body.substring(0, 150));
+      try {
+        let json = JSON.parse(resp.body);
+        if (json.code === "000000" || json.success) {
+          extraGained++;
+        }
+      } catch (e) {}
+    }
+  } catch (e) {
+    log("  ⚠️ 签到任务失败: " + e.error);
+  }
+
+  // 尝试浏览任务获得额外次数
+  try {
+    let resp = await httpRequest(
+      `https://${activityHost}/api/task/complete?activityId=1021122301&taskType=browse`,
+      "POST",
+      {
+        "Cookie": cred.cookie,
+        "x-token": cred.xToken,
+        "Content-Type": "application/json"
+      },
+      JSON.stringify({ activityId: "1021122301", taskType: "browse" })
+    );
+
+    if (resp.body) {
+      log("  ↳ 浏览任务: " + resp.body.substring(0, 150));
+    }
+  } catch (e) {}
+
+  if (extraGained > 0) {
+    log(`  ✅ 获得 ${extraGained} 次额外抽奖机会`);
+  } else {
+    log("  ℹ️ 未获取到额外次数(或已领取过)");
+  }
+
+  return { extraGained };
+}
+
+// ==================== 辅助: 随机 MD5 格式字符串 ====================
+function md5random() {
+  let s = "";
+  for (let i = 0; i < 32; i++) s += Math.floor(Math.random() * 16).toString(16);
+  return s;
+}
+
+// ==================== 主流程 ====================
+async function main() {
+  log("═══════════════════════════════════════");
+  log("    📶 中国移动 10086 签到抽奖");
+  log("    ⏰ " + new Date().toLocaleString("zh-CN"));
+  log("═══════════════════════════════════════");
+
+  // 1. 读取凭证
+  let cred = getCredentials();
+  if (!cred.xToken && !cred.cookie) {
+    log("❌ 未检测到 Token 或 Cookie");
+    log("📌 请先在 Quantumult X 中启用 10086_token.js");
+    log("📌 然后打开一次中国移动 App 以捕获凭证");
+    $notification.post("❌ 移动10086", "签到失败", "未检测到Token/Cookie，请先打开中国移动App");
+    return;
+  }
+
+  log("📄 Token: " + (cred.xToken ? "✓ (" + cred.xToken.substring(0, 20) + "…)" : "✗"));
+  log("📄 Cookie: " + (cred.cookie ? "✓ (" + cred.cookie.substring(0, 40) + "…)" : "✗"));
+
+  // 2. 执行各步骤
+  await refreshSession(cred);
+  let signResult = await visitCheckinPage(cred);
+  let lotteryInfo = await queryLottery(cred);
+  let drawResult = null;
+  if (lotteryInfo.chances > 0) {
+    drawResult = await doLottery(cred, lotteryInfo.chances);
+  }
+  await getExtraChances(cred);
+
+  // 3. 二次抽奖 (如果有额外次数)
+  if (lotteryInfo.chances > 0 && drawResult && drawResult.count < lotteryInfo.chances) {
+    let remain = lotteryInfo.chances - drawResult.count;
+    log(`📌 剩余 ${remain} 次抽奖机会，继续抽取...`);
+    await doLottery(cred, remain);
+  }
+
+  // 4. 汇总结果
+  log("═══════════════════════════════════════");
+  let summaryParts = [];
+  summaryParts.push(signResult.signed ? "✅签到成功" : "⚠️签到需手动");
+  if (drawResult && drawResult.drew) summaryParts.push(`🎰抽奖${drawResult.count}次`);
+  else summaryParts.push("🎰无抽奖次数");
+  let summary = summaryParts.join(" | ");
+
+  $notification.post("📶 移动10086", summary, "详情查看日志");
+  log("📋 " + summary);
+  log("═══════════════════════════════════════");
+
+  $done();
+}
+
+main().catch(e => {
+  log("❌ 脚本异常: " + JSON.stringify(e));
+  $notification.post("❌ 移动10086 异常", "", String(e));
+  $done();
+});
