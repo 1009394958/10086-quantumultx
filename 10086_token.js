@@ -1,1 +1,108 @@
-Ly8gPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0KLy8g5Lit5Zu956e75YqoIDEwMDg2IFRva2VuIOiOt+WPluiEmuacrCAoUXVhbnR1bXVsdCBYKQovLyDpgILnlKg6IE1JVE0g6YeN5YaZIC0g6Ieq5Yqo5o2V6I63IHgtdG9rZW4vci10b2tlbiDlkowgQ29va2llCi8vID09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09Ci8vIFF1YW50dW11bHQgWCDphY3nva46Ci8vIFtyZXdyaXRlX3JlbW90ZV0KLy8gaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tLzEwMDkzOTQ5NTgvMTAwODYtcXVhbnR1bXVsdHgvbWFpbi8xMDA4Nl90b2tlbi5qcywgdGFnPeenu+WKqDEwMDg2X+iOt+WPllRva2VuLCBlbmFibGVkPXRydWUKLy8gW01JVE1dCi8vIGhvc3RuYW1lID0gKi4xMDA4Ni5jbiwgKi5jb2MuMTAwODYuY24sICouY2xpZW50YWNjZXNzLjEwMDg2LmNuCgovLyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQovLyDimqDvuI8g5L2/55So6K+05piOOgovLyAxLiDlnKggUXVhbnR1bXVsdCBYIOeahCBbcmV3cml0ZV9sb2NhbF0g5oiWIFtyZXdyaXRlX3JlbW90ZV0g5Lit5re75Yqg5q2k6ISa5pysCi8vIDIuIOWcqCBbTUlUTV0g5Lit5re75YqgIGhvc3RuYW1lID0gKi4xMDA4Ni5jbgovLyAzLiDmiZPlvIDkuK3lm73np7vliqggQXBw77yM6ISa5pys5Lya6Ieq5Yqo5o2V6I63IHRva2VuCi8vIDQuIOaNleiOt+aIkOWKn+WQjuS8muWcqOmAmuefpeagj+aYvuekugovLyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQoKY29uc3QgS0VZX1RPS0VOID0gIjEwMDg2X3hfdG9rZW4iOwpjb25zdCBLRVlfQ09PS0lFID0gIjEwMDg2X2Nvb2tpZSI7CmNvbnN0IEtFWV9SVE9LRU4gPSAiMTAwODZfcl90b2tlbiI7CgovLyA9PT09PT09PT09PT0g5LuO6K+35rGC5Lit5o2V6I63ID09PT09PT09PT09PQppZiAoJHJlcXVlc3QpIHsKICAgIGxldCBoZWFkZXJzID0gJHJlcXVlc3QuaGVhZGVyczsKICAgIGxldCB1cmwgPSAkcmVxdWVzdC51cmw7CgogICAgLy8g5Y+q5aSE55CGIDEwMDg2LmNuIOebuOWFs+Wfn+WQjeeahOivt+axggogICAgaWYgKC9cLjEwMDg2XC5jbi9pLnRlc3QodXJsKSB8fCAvXC5jb2NcLjEwMDg2XC5jbi9pLnRlc3QodXJsKSkgewogICAgICAgIAogICAgICAgIC8vIOS7juivt+axguWktOS4reaPkOWPliB4LXRva2VuCiAgICAgICAgaWYgKGhlYWRlcnNbIngtdG9rZW4iXSkgewogICAgICAgICAgICBsZXQgdG9rZW4gPSBoZWFkZXJzWyJ4LXRva2VuIl07CiAgICAgICAgICAgICRwcmVmcy5zZXRWYWx1ZUZvcktleSh0b2tlbiwgS0VZX1RPS0VOKTsKICAgICAgICAgICAgY29uc29sZS5sb2coIuKchSDmjZXojrcgeC10b2tlbjogIiArIHRva2VuLnN1YnN0cmluZygwLCA1MCkgKyAiLi4uIik7CiAgICAgICAgfQoKICAgICAgICAvLyDku47or7fmsYLlpLTkuK3mj5Dlj5YgQ29va2llIChKU0VTU0lPTklEICsgVUlEKQogICAgICAgIGlmIChoZWFkZXJzWyJDb29raWUiXSkgewogICAgICAgICAgICBsZXQgY29va2llID0gaGVhZGVyc1siQ29va2llIl07CiAgICAgICAgICAgICRwcmVmcy5zZXRWYWx1ZUZvcktleShjb29raWUsIEtFWV9DT09LSUUpOwogICAgICAgICAgICBjb25zb2xlLmxvZygi4pyFIOaNleiOtyBDb29raWU6ICIgKyBjb29raWUuc3Vic3RyaW5nKDAsIDgwKSArICIuLi4iKTsKICAgICAgICB9CiAgICB9Cn0KCi8vID09PT09PT09PT09PSDku47lk43lupTkuK3mjZXojrcgPT09PT09PT09PT09CmlmICgkcmVzcG9uc2UpIHsKICAgIGxldCByZXNwSGVhZGVycyA9ICRyZXNwb25zZS5oZWFkZXJzOwogICAgbGV0IHVybCA9ICRyZXNwb25zZS51cmw7CiAgICAKICAgIGlmICgvXC4xMDA4NlwuY24vaS50ZXN0KHVybCkgfHwgL1wuY29jXC4xMDA4NlwuY24vaS50ZXN0KHVybCkpIHsKICAgICAgICAKICAgICAgICAvLyDku47lk43lupTlpLTkuK3mj5Dlj5Ygci10b2tlbiAo5pyN5Yqh56uv6L+U5Zue55qE5pu05pawdG9rZW4pCiAgICAgICAgaWYgKHJlc3BIZWFkZXJzWyJyLXRva2VuIl0pIHsKICAgICAgICAgICAgbGV0IHJUb2tlbiA9IHJlc3BIZWFkZXJzWyJyLXRva2VuIl07CiAgICAgICAgICAgICRwcmVmcy5zZXRWYWx1ZUZvcktleShyVG9rZW4sIEtFWV9SVE9LRU4pOwogICAgICAgICAgICBjb25zb2xlLmxvZygi4pyFIOaNleiOtyByLXRva2VuOiAiICsgclRva2VuKTsKICAgICAgICAgICAgCiAgICAgICAgICAgIC8vIOeUqCByLXRva2VuIOabtOaWsCB4LXRva2VuIChyLXRva2VuIOaYr+acjeWKoeerr+S4i+WPkeeahOabtOaWsOWHreivgSkKICAgICAgICAgICAgbGV0IG9sZFRva2VuID0gJHByZWZzLnZhbHVlRm9yS2V5KEtFWV9UT0tFTik7CiAgICAgICAgICAgIGlmIChvbGRUb2tlbikgewogICAgICAgICAgICAgICAgLy8g6YOo5YiG5Zy65pmv5LiLIHItdG9rZW4g6ZyA6KaB5ou85o6l5YiwIHgtdG9rZW4g5Lit5L2/55SoCiAgICAgICAgICAgICAgICAvLyDov5nph4zkv53nlZnljp/lp4sgeC10b2tlbu+8jHItdG9rZW4g5Y2V54us5a2Y5YKoCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgCiAgICAgICAgLy8g5LuOIFNldC1Db29raWUg5ZON5bqU5aS05Lit5o+Q5Y+WIENvb2tpZQogICAgICAgIGlmIChyZXNwSGVhZGVyc1siU2V0LUNvb2tpZSJdKSB7CiAgICAgICAgICAgIGxldCBzZXRDb29raWUgPSByZXNwSGVhZGVyc1siU2V0LUNvb2tpZSJdOwogICAgICAgICAgICAvLyDmj5Dlj5YgSlNFU1NJT05JRCDlkowgVUlECiAgICAgICAgICAgIGxldCBtYXRjaGVzID0gc2V0Q29va2llLm1hdGNoKC8oSlNFU1NJT05JRHxVSUQpPShbXjtdKykvZyk7CiAgICAgICAgICAgIGlmIChtYXRjaGVzKSB7CiAgICAgICAgICAgICAgICBsZXQgY29va2llU3RyID0gbWF0Y2hlcy5qb2luKCI7ICIpOwogICAgICAgICAgICAgICAgbGV0IGV4aXN0aW5nQ29va2llID0gJHByZWZzLnZhbHVlRm9yS2V5KEtFWV9DT09LSUUpIHx8ICIiOwogICAgICAgICAgICAgICAgLy8g5pu05pawIGNvb2tpZSDkuK3nmoTlgLwKICAgICAgICAgICAgICAgIGlmIChjb29raWVTdHIpIHsKICAgICAgICAgICAgICAgICAgICAvLyDlkIjlubbmlrDml6cgY29va2llCiAgICAgICAgICAgICAgICAgICAgbGV0IG5ld0Nvb2tpZSA9IGNvb2tpZVN0cjsKICAgICAgICAgICAgICAgICAgICBpZiAoZXhpc3RpbmdDb29raWUpIHsKICAgICAgICAgICAgICAgICAgICAgICAgbGV0IHBhcnRzID0gZXhpc3RpbmdDb29raWUuc3BsaXQoIjsgIik7CiAgICAgICAgICAgICAgICAgICAgICAgIGZvciAobGV0IHAgb2YgcGFydHMpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGxldCBrZXkgPSBwLnNwbGl0KCI9IilbMF07CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBpZiAoIWNvb2tpZVN0ci5pbmNsdWRlcyhrZXkgKyAiPSIpKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbmV3Q29va2llICs9ICI7ICIgKyBwOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICRwcmVmcy5zZXRWYWx1ZUZvcktleShuZXdDb29raWUsIEtFWV9DT09LSUUpOwogICAgICAgICAgICAgICAgICAgIGNvbnNvbGUubG9nKCLinIUg5pu05pawIENvb2tpZTogIiArIG5ld0Nvb2tpZS5zdWJzdHJpbmcoMCwgODApICsgIi4uLiIpOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQp9CgovLyDlj5HpgIHpgJrnn6XmsYfmgLvmjZXojrfnu5PmnpwKbGV0IGhhc1Rva2VuID0gJHByZWZzLnZhbHVlRm9yS2V5KEtFWV9UT0tFTik7CmxldCBoYXNDb29raWUgPSAkcHJlZnMudmFsdWVGb3JLZXkoS0VZX0NPT0tJRSk7CmlmIChoYXNUb2tlbiAmJiBoYXNDb29raWUpIHsKICAgICRub3RpZmljYXRpb24ucG9zdCgKICAgICAgICAi8J+TtiDnp7vliqgxMDA4NiIsCiAgICAgICAgIuKchSBUb2tlbiAmIENvb2tpZSDlt7LmjZXojrciLAogICAgICAgICJUb2tlbjogIiArIGhhc1Rva2VuLnN1YnN0cmluZygwLCAyMCkgKyAiLi4uIHwgQ29va2llOiAiICsgKGhhc0Nvb2tpZS5pbmNsdWRlcygiSlNFU1NJT05JRCIpID8gIuKckyIgOiAi4pyXIikKICAgICk7Cn0KCiRkb25lKHt9KTsK
+// =========================================
+// 中国移动 10086 Token 获取脚本 (Quantumult X)
+// 适用: MITM 重写 - 自动捕获 x-token/r-token 和 Cookie
+// =========================================
+// Quantumult X 配置:
+// [rewrite_remote]
+// https://raw.githubusercontent.com/1009394958/10086-quantumultx/main/10086_token.js, tag=移动10086_获取Token, enabled=true
+// [MITM]
+// hostname = *.10086.cn, *.coc.10086.cn, *.clientaccess.10086.cn
+
+// =========================================
+// ⚠️ 使用说明:
+// 1. 在 Quantumult X 的 [rewrite_local] 或 [rewrite_remote] 中添加此脚本
+// 2. 在 [MITM] 中添加 hostname = *.10086.cn
+// 3. 打开中国移动 App，脚本会自动捕获 token
+// 4. 捕获成功后会在通知栏显示
+// =========================================
+
+const KEY_TOKEN = "10086_x_token";
+const KEY_COOKIE = "10086_cookie";
+const KEY_RTOKEN = "10086_r_token";
+
+// ============ 从请求中捕获 ============
+if ($request) {
+    let headers = $request.headers;
+    let url = $request.url;
+
+    // 只处理 10086.cn 相关域名的请求
+    if (/\.10086\.cn/i.test(url) || /\.coc\.10086\.cn/i.test(url)) {
+        
+        // 从请求头中提取 x-token
+        if (headers["x-token"]) {
+            let token = headers["x-token"];
+            $prefs.setValueForKey(token, KEY_TOKEN);
+            console.log("✅ 捕获 x-token: " + token.substring(0, 50) + "...");
+        }
+
+        // 从请求头中提取 Cookie (JSESSIONID + UID)
+        if (headers["Cookie"]) {
+            let cookie = headers["Cookie"];
+            $prefs.setValueForKey(cookie, KEY_COOKIE);
+            console.log("✅ 捕获 Cookie: " + cookie.substring(0, 80) + "...");
+        }
+    }
+}
+
+// ============ 从响应中捕获 ============
+if ($response) {
+    let respHeaders = $response.headers;
+    let url = $response.url;
+    
+    if (/\.10086\.cn/i.test(url) || /\.coc\.10086\.cn/i.test(url)) {
+        
+        // 从响应头中提取 r-token (服务端返回的更新token)
+        if (respHeaders["r-token"]) {
+            let rToken = respHeaders["r-token"];
+            $prefs.setValueForKey(rToken, KEY_RTOKEN);
+            console.log("✅ 捕获 r-token: " + rToken);
+            
+            // 用 r-token 更新 x-token (r-token 是服务端下发的更新凭证)
+            let oldToken = $prefs.valueForKey(KEY_TOKEN);
+            if (oldToken) {
+                // 部分场景下 r-token 需要拼接到 x-token 中使用
+                // 这里保留原始 x-token，r-token 单独存储
+            }
+        }
+        
+        // 从 Set-Cookie 响应头中提取 Cookie
+        if (respHeaders["Set-Cookie"]) {
+            let setCookie = respHeaders["Set-Cookie"];
+            // 提取 JSESSIONID 和 UID
+            let matches = setCookie.match(/(JSESSIONID|UID)=([^;]+)/g);
+            if (matches) {
+                let cookieStr = matches.join("; ");
+                let existingCookie = $prefs.valueForKey(KEY_COOKIE) || "";
+                // 更新 cookie 中的值
+                if (cookieStr) {
+                    // 合并新旧 cookie
+                    let newCookie = cookieStr;
+                    if (existingCookie) {
+                        let parts = existingCookie.split("; ");
+                        for (let p of parts) {
+                            let key = p.split("=")[0];
+                            if (!cookieStr.includes(key + "=")) {
+                                newCookie += "; " + p;
+                            }
+                        }
+                    }
+                    $prefs.setValueForKey(newCookie, KEY_COOKIE);
+                    console.log("✅ 更新 Cookie: " + newCookie.substring(0, 80) + "...");
+                }
+            }
+        }
+    }
+}
+
+// 发送通知汇总捕获结果
+let hasToken = $prefs.valueForKey(KEY_TOKEN);
+let hasCookie = $prefs.valueForKey(KEY_COOKIE);
+if (hasToken && hasCookie) {
+    $notification.post(
+        "📶 移动10086",
+        "✅ Token & Cookie 已捕获",
+        "Token: " + hasToken.substring(0, 20) + "... | Cookie: " + (hasCookie.includes("JSESSIONID") ? "✓" : "✗")
+    );
+}
+
+$done({});
